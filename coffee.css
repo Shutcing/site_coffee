@@ -1,0 +1,148 @@
+body{
+	font-family: Montserrat, Nunito, DisplayLarge, DisplayMedium ;
+	padding:0;
+	margin:0;
+	display: flex;
+}
+nav{
+	position: relative;
+	background-color: white;
+	width: 1076px;
+	height: 768px;
+}
+.d1{
+	width: 690px;
+	height: 768px;
+	position: absolute;
+	background-image: url('Foto/back.png');
+	background-repeat: no-repeat;
+	background-size: 690px 768px;
+	right: 0px;
+}
+.d2{
+	position: absolute;
+	right: 0px;
+	background-color: #415167;
+	width: 274px;
+	height: 768px;
+}
+.d3{
+	position: absolute;
+	top: 504px;
+	left: 145px;
+	z-index: 2;
+	width: 470px;
+	height: 200px;
+	line-height: 70px;
+
+}
+.d4{
+	position: absolute;
+	left: 130px;
+	top: 573px;
+	background-color: #C7A17A;
+	width: 486px;
+	height: 70px;
+}
+.d5{
+	position: absolute;
+	top: 282px;
+	left: 72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.circle{
+	position: absolute;
+	top: 76px;
+	left: 46px;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: #C7A17A;
+}
+.im1{
+	width: 109.41px;
+	height: 36.36px;
+	position: absolute;
+	left: 137.29px;
+	top: 75.64px;
+}
+.im2{
+	position: absolute;
+	left: 59px;
+	top: 89px;
+	width: 20px;
+	height: 16.14px;
+	z-index: 2;
+}
+.ov{
+	width: 5.21px;
+	height: 5.21px;
+	position: absolute;
+	z-index: 2;
+}
+.ov.ov1{
+	left: 60.93px;
+	top: 103.79px;
+}
+.ov.ov2{
+	left: 70.57px;
+	top: 103.79px;
+}
+.p1{
+	font-size: 54px;
+	color: #415167;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0;
+}
+.p2{
+	margin: 0px 0px 0px 15px;
+	font-size: 54px;
+	color: white;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.p3{
+	position: absolute;
+	bottom: 0;
+	font-size: 54px;
+	color: #415167;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0;
+}
+.pcofe{
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 24px;
+	font-family: Nunito;
+	color: white;
+}
+.cf{
+	text-transform: uppercase;
+	position: absolute;
+	font-weight: 400;
+	top: 222px;
+	left: 57px;
+	color: white;
+	font-size: 30px;
+}
+
+.d6:hover .circle{
+	width: 45px;
+	height: 45px;
+	transition-duration: 0.5s;
+	transition-timing-function: cubic-bezier(0, -0.07, 0.61, 1.64);
+}
+.circle, .pcofe{
+	transition-duration: 0.7s;
+}
+
+.pcofe:hover{
+	font-weight: 600;
+	font-size: 30px;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
